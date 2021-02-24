@@ -33,8 +33,8 @@ app.get('/api/signup', (req, res) => {
 });
 
 app.get('/api/login', (req, res) => {
-  console.log('api/signup')
-  res.json("Signup Page")
+  console.log('api/login')
+  res.json("Login Page")
 });
 
 app.get('/api', (req, res) => {
