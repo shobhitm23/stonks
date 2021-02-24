@@ -1,4 +1,18 @@
 const express = require('express');
+var firebase = require("firebase");
+
+var firebaseConfig = {
+  apiKey: "AIzaSyAM2bCIli_2cVW7DhDkG7jBOFPDAQoTS3c",
+  authDomain: "stonks-7fcbd.firebaseapp.com",
+  projectId: "stonks-7fcbd",
+  storageBucket: "stonks-7fcbd.appspot.com",
+  messagingSenderId: "297531669463",
+  appId: "1:297531669463:web:aeebabe78fc47546772992",
+  measurementId: "G-N1MQ2HM861"
+};
+
+firebase.initializeApp(firebaseConfig);
+
 
 const app = express(),
       bodyParser = require("body-parser")
