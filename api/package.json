@@ -1,0 +1,11 @@
+{
+  "name": "stonks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": ":\"\"\u001b[Decho \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "author": "",
+  "license": "ISC"
+}
